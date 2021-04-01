@@ -1,0 +1,63 @@
+\documentclass{article}
+\usepackage[margin=1in, landscape]{geometry}
+
+\usepackage{multirow}
+\usepackage{siunitx}
+
+\begin{document}
+
+\begin{center}
+
+\begin{tabular}{ |c|c|c|c|c|c|c| } 
+    \hline
+    \multicolumn{2}{|c|}{Prefix} & \multirow{2}{*}{Base 10} & \multirow{2}{*}{Decimal} & \multicolumn{2}{c|}{English word} & \multirow{2}{*}{Adoption} \\
+    \cline{1-2}\cline{5-6}
+    Name & Symbol & & & Short Scale & Long Scale & \\
+    \hline
+    yotta- & \si{\yotta}- & $10^{24}$ & \multicolumn{1}{r|}{\num{1000000000000000000000000}} & septillion & quadrillion & 1991 \\
+    \hline
+    zetta- & \si{\zetta}- & $10^{21}$ & \multicolumn{1}{r|}{\num{1000000000000000000000}} & sextillion & trilliard & 1991 \\
+    \hline
+    exa- & \si{\exa}- & $10^{18}$ & \multicolumn{1}{r|}{\num{1000000000000000000}} & quintillion & trillion & 1975 \\
+    \hline
+    peta- & \si{\peta}- & $10^{15}$ & \multicolumn{1}{r|}{\num{1000000000000000}} & quadrillion & billiard & 1975 \\
+    \hline
+    tera- & \si{\tera}- & $10^{12}$ & \multicolumn{1}{r|}{\num{1000000000000}} & trillion & billion & 1960 \\
+    \hline
+    giga- & \si{\giga}- & $10^{9}$ & \multicolumn{1}{r|}{\num{1000000000}} & billion & milliard & 1960 \\
+    \hline
+    mega- & \si{\mega}- & $10^{6}$ & \multicolumn{1}{r|}{\num{1000000}} & \multicolumn{2}{c|}{million} & 1873 \\
+    \hline
+    kilo- & \si{\kilo}- & $10^{3}$ & \multicolumn{1}{r|}{\num{1000}} & \multicolumn{2}{c|}{thousand} & 1795 \\
+    \hline
+    hecto- & \si{\hecto}- & $10^{2}$ & \multicolumn{1}{r|}{\num{100}} & \multicolumn{2}{c|}{hundred} & 1795 \\
+    \hline
+    deca- & \si{\deca}- & $10^{1}$ & \multicolumn{1}{r|}{\num{10}} & \multicolumn{2}{c|}{ten} & 1795 \\
+    \hline
+    \multicolumn{2}{|c|}{} & $10^{0}$ & 1 & \multicolumn{2}{c|}{one} & - \\
+    \hline
+    deci- & \si{\deci}- & $10^{-1}$ & \multicolumn{1}{l|}{\num{0.1}} & \multicolumn{2}{c|}{tenth} & 1795 \\
+    \hline
+    centi- & \si{\centi}- & $10^{-2}$ & \multicolumn{1}{l|}{\num{0.01}} & \multicolumn{2}{c|}{hundredth} & 1795 \\
+    \hline
+    milli- & \si{\milli}- & $10^{-3}$ & \multicolumn{1}{l|}{\num{0.001}} & \multicolumn{2}{c|}{thousandth} & 1795 \\
+    \hline
+    micro- & \si{\micro}- & $10^{-6}$ & \multicolumn{1}{l|}{\num{0.000001}} & \multicolumn{2}{c|}{millionth} & 1873 \\
+    \hline
+    nano- & \si{\nano}- & $10^{-9}$ & \multicolumn{1}{l|}{\num{0.000000001}} & billionth & milliardth & 1960 \\
+    \hline
+    pico- & \si{\pico}- & $10^{-12}$ & \multicolumn{1}{l|}{\num{0.000000000001}} & trillionth & billionth & 1960 \\
+    \hline
+    femto- & \si{\femto}- & $10^{-15}$ & \multicolumn{1}{l|}{\num{0.000000000000001}} & quadrillionth & billiardth & 1964 \\
+    \hline
+    atto- & \si{\atto}- & $10^{-18}$ & \multicolumn{1}{l|}{\num{0.000000000000000001}} & quintillionth & trillionth & 1964 \\
+    \hline
+    zepto- & \si{\zepto}- & $10^{-21}$ & \multicolumn{1}{l|}{\num{0.000000000000000000001}} & sextillionth & trilliardth & 1991 \\
+    \hline
+    yocto- & \si{\yocto}- & $10^{-24}$ & \multicolumn{1}{l|}{\num{0.000000000000000000000001}} & septillionth & quadrillionth & 1991 \\
+    \hline
+\end{tabular}
+
+\end{center}
+
+\end{document}
